@@ -1,0 +1,204 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	color: gray;
+}
+
+
+body{
+	background-image: url(bgbody.jpg);
+}
+/*header section start here*/
+.head{
+	width: 100%;
+	height: 120px;
+	background-image: url(bgheader.jpg);
+	display: flex;
+}
+#logo{
+	flex: 1;
+	padding-top: 30px;
+}
+#logo img{
+	padding-left: 205px;
+}
+#menu{
+	flex: 1;
+}
+.menuimg img{
+	padding-left: 37%;
+}
+.menuitem ul{
+	display: flex;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.menuitem > ul > li{
+	flex: 1;
+	list-style-type: none;
+	padding-left: 5px;
+	color: white !important;
+	font-weight: bold;
+	justify-content: space-evenly;
+}
+.menuitem>ul>li a{
+	text-decoration: none;
+	color: white;
+}
+.menuitem>ul>li a:hover{
+	color: yellow;
+}
+/*header section end here*/
+
+/*block2 section start here*/
+.block2{
+	background-image: url(bgfeatured.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 85px;
+	padding-left: 300px;
+	height: 490px;
+}
+p.white{
+	color: white;
+	font-size: 23px;
+}
+h3.white{
+	color: white;
+	font-size: 32px;
+}
+h2.yellow{
+	color: yellow;
+	font-size: 45px;
+}
+/*block2 section end here*/
+
+/*thumbnail section start here*/
+.thumbnail{
+	display: flex;
+}
+.thumbnail1{
+	flex: 1;
+	padding-left: 150px;
+	/*border: 1px solid green;*/
+	margin-right: 50px;
+}
+.thumbnail1 p{
+	padding-right: 60px;
+}
+.thumbnail2{
+	flex: 1;
+	padding-right: 150px;
+	/*border: 1px solid red;*/
+}
+.thumbnail2 p{
+	padding-right: 55px;
+}
+/*Block2 section end here*/
+
+/*Pab class section starts here*/
+.pab{
+	display: flex;
+}
+.prgm{
+	flex: 1;
+	/*border: 1px solid black;*/
+	padding-left: 150px;
+	display: flex;
+}
+.prgm1{
+	flex: 1;
+	margin-right: 16px;
+}
+.prgm2{
+	flex: 1;
+}
+.blog{
+	flex: 1;
+	/*border: 1px solid blue;*/
+	padding-right: 150px;
+}
+.blog1{
+	display: flex;
+	/*border: 1px solid green;*/
+}
+.blogt1{
+	flex: 1;
+	/*border: 1px solid darkred;*/
+	padding-left: 35px;
+	padding-right: 5px;
+}
+.blogt2{
+	flex: 2;
+	/*border: 1px solid yellow;*/
+}
+.blog2{
+	display: flex;
+}
+p.title{
+	color: black;
+}
+span.red{
+	color: red;
+}
+
+/*Pab section end here*/
+
+/*Footer section start here*/
+
+footer{
+	background-image: url(bgfooter.jpg);
+}
+.foot{
+	display: flex;
+	padding-top: 35px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 35px;
+}
+.foot1{
+	flex: 1;
+	/*border: 1px solid green;*/
+}
+#space{
+	padding-left: 15px;
+}
+.foot2{
+	flex: 2;
+	/*border: 1px solid yellow;*/
+}
+.foot3{
+	flex: 1;
+	/*border: 1px solid red;*/
+	padding-left: 25px;
+}
+
+/*Footer section end here*/
+
+/*LFOOT section start here*/
+.lfoot{
+	display: flex;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 10px;
+}
+.lfoot1{
+	flex: 1;
+	/*border: 1px solid yellow;*/
+}
+.lfoot1 ul{
+	list-style-type: none;
+	display: flex;
+}
+.lfoot1 ul li{
+	flex: 1;
+}
+.lfoot2{
+	flex: 1;
+	/*border: 1px solid red;*/
+}
+/*LFOOT section end here*/
+
+.line{
+	margin-left: 38px;
+}

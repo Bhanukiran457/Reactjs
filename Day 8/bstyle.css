@@ -1,0 +1,186 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	color: gray;
+}
+
+
+body{
+	background-image: url(bgbody.jpg);
+}
+/*header section start here*/
+.head{
+	width: 100%;
+	height: 120px;
+	background-image: url(bgheader.jpg);
+	display: flex;
+}
+#logo{
+	flex: 1;
+	padding-top: 30px;
+}
+#logo img{
+	padding-left: 205px;
+}
+#menu{
+	flex: 1;
+}
+.menuimg img{
+	padding-left: 37%;
+}
+.menuitem ul{
+	display: flex;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.menuitem > ul > li{
+	flex: 1;
+	list-style-type: none;
+	padding-left: 5px;
+	color: white !important;
+	font-weight: bold;
+	justify-content: space-evenly;
+}
+.menuitem>ul>li a{
+	text-decoration: none;
+	color: white;
+}
+.menuitem>ul>li a:hover{
+	color: yellow;
+}
+/*header section end here*/
+
+/*Block section start here*/
+
+
+.block{
+	display: flex;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-bottom: 150px;
+}
+.block1{
+	flex: 3;
+	margin-right: 15px;
+}
+.content1{
+	display: flex;
+	height: 75px;
+}
+.logo1{
+	flex: 1;
+	background-image: url(date.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	/*height: 100px;*/
+	text-align: center;
+	padding-top: 12px;
+	padding-left: 5px;
+}
+.logo1 p{
+	color: white;
+}
+.title1{
+	flex: 7;
+}
+.titlepad{
+	padding-top: 10px;
+}
+.content2{
+	display: flex;
+	height: 75px;
+}
+.block2{
+	flex: 1;
+	background-color: lightgray;
+	
+}
+.block2 h3{
+	padding-left: 20px;
+}
+.block2 p{
+	padding-left: 20px;
+}
+.imgpad{
+	padding-left: 20px;
+	padding-bottom:10px;
+}
+p.red{
+	color: brown;
+}
+.post{
+	font-weight: bold;
+	padding-left: 800px;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.rightalign{
+	padding-left: 258px;
+}
+.imgabv{
+	padding-top: 10px;
+}
+/*Block section end here*/
+
+/*Footer section start here*/
+
+footer{
+	background-image: url(bgfooter.jpg);
+}
+.foot{
+	display: flex;
+	padding-top: 35px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 35px;
+}
+.foot1{
+	flex: 1;
+	/*border: 1px solid green;*/
+}
+#space{
+	padding-left: 15px;
+}
+.foot2{
+	flex: 2;
+	/*border: 1px solid yellow;*/
+}
+.foot3{
+	flex: 1;
+	/*border: 1px solid red;*/
+	padding-left: 25px;
+}
+
+/*Footer section end here*/
+
+/*LFOOT section start here*/
+.lfoot{
+	display: flex;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 10px;
+}
+.lfoot1{
+	flex: 1;
+	/*border: 1px solid yellow;*/
+}
+.lfoot1 ul{
+	list-style-type: none;
+	display: flex;
+}
+.lfoot1 ul li{
+	flex: 1;
+}
+.lfoot2{
+	flex: 1;
+	/*border: 1px solid red;*/
+}
+/*LFOOT section end here*/
+
+.line{
+	margin-left: 38px;
+}
+span.red{
+	color: red;
+}
